@@ -75,7 +75,7 @@ function newRecipe(event) {
     inputValidation.innerHTML = "Method is mandatory";
     inputValidation.style.color = "red";
   } else {
-    // to clean all field and span messages after clicking in the button
+    // to clean all fields and span messages after clicking in the button
     inputValidation.style.display = "none";
     newRecipeName.value = "";
     newRecipeIngredients.value = "";
